@@ -1,0 +1,23 @@
+# Environments
+venv
+.DS_Store
+
+
+# Django
+db.sqlite3
+.env
+media/
+__pycache__/
+
+
+# Parser
+parser
+index_test.html
+
+
+# Pycharm
+.idea
+
+
+# Visual Studio Code
+.vscode/ 

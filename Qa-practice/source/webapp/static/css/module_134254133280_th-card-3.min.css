@@ -1,0 +1,45 @@
+.th-card-3 .flex {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -20px
+}
+
+.th-card-3 .flex .col {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 10px 20px
+}
+
+.th-card-3 .card {
+    overflow: hidden
+}
+
+.th-card-3 .card .card-image img {
+    object-fit: cover;
+    width: 100%
+}
+
+@media (max-width:1139px) {
+    .th-card-3 .flex {
+        margin: 0 -10px
+    }
+
+    .th-card-3 .flex .col {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 10px 20px
+    }
+}
+
+@media (max-width:767px) {
+    .th-card-3 .flex .col {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+    .th-card-3 .flex .col:not(:last-child) {
+        padding-bottom: 20px
+    }
+}

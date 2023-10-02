@@ -1,0 +1,27 @@
+.th-cta-1 .flex {
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-right: -20px
+}
+
+.th-cta-1 .flex .col {
+    flex: 1;
+    padding: 0 20px
+}
+
+@media (max-width:767px) {
+    .th-cta-1 .flex .col {
+        flex: 0 0 100%
+    }
+
+    .th-cta-1 .flex .col:not(:last-child) {
+        padding-bottom: 20px
+    }
+}
+
+.th-cta-1 .flex--left-button {
+    flex-direction: row-reverse
+}
